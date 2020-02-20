@@ -34,7 +34,7 @@
             
    ?> 
 
-    <a href="pagina.html">Voltar</a>
+    <a href="pagina2.html">Voltar</a>
 </div>
     
 </body>
