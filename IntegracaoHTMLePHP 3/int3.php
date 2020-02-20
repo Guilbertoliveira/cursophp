@@ -30,7 +30,7 @@
 <div>
     <?php
 
-    echo" <span class = 'textu'>$texto</span>;"
+    echo" <span class = 'textu'>$texto</span>"
     
         
             
