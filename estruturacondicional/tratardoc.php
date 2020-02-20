@@ -10,7 +10,7 @@
 
 <body>
 
-<h1>Testando aa</h1>
+<h1>Exercicio estrutura condicional</h1>
 <div>
     <?php
 
@@ -19,16 +19,26 @@
 
     $i = date("Y") - $ano;
 
-    echo"Você possuí $i anos";
-    
-    if($i >= 18) {
-        $v = "ja pode votar";
+    echo"Você possuí $i anos <br>";
+    if($i >=65){
+        $v="voto opcional";
+        $d="pode mas não deveria dirigir";
+
+    }
+    elseif($i >= 18 && $i < 65) {
+        $v = "voto obrigatorio";
         $d = "ja pode dirigir";
     }
-    else{
-        $v = "você não pode votar";
-        $d = "não pode dirigir";
-    }
+        elseif($i >= 16 && $i< 18){
+            $v="voto opcional";
+            $d="não pode dirigir";
+            }
+            else{
+            $v = " não pode votar";
+            $d = "não pode dirigir";
+            }
+        
+            
 
     echo" Com essa idade você $v e também $d";
 

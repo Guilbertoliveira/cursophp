@@ -1,0 +1,21 @@
+form input{
+    margin: 10px;
+}
+
+ form input#cID2{ /*por id*/
+    border: 2px solid blue;
+}
+
+form label{
+    margin-left: 10px; /*mudar a margem da label*/
+}
+
+form{
+    border: 2px solid red;
+    border-radius: 4px; /*deixa a borda mais bonita*/
+
+}
+
+body{
+    background-color: cornflowerblue;
+}
