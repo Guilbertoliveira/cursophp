@@ -1,0 +1,18 @@
+body{
+    background-color: darkkhaki;
+}
+
+body h1{
+    color: darkolivegreen;
+}
+
+form input{
+    background-color: darkorange;
+}
+
+body form input#teste{
+    background-color: darkolivegreen;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
