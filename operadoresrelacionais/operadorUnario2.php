@@ -13,16 +13,19 @@
 <h1>Operadores relacionais</h1>
 <div>
     <?php
-    $n1 = $_GET["a"];
-    $n2 = $_GET["b"];
-    $tipo = $_GET["op"];
-    echo "os valores passados foram $n1 e $n2 <br>";
+    $a = 3;
+    $b = "3";
 
-    $r = ($tipo == "s")?$n1+$n2:$n1*$n2;  //compração?sesim:senao
-
-    echo"<br> o resultado será $r";
-        
+    echo "valores passados $a e $b";
     
+    $r = ($a === $b)?"sim":"não";  // === é identico ? igual e do mesmo tipo 
+
+    echo"<br> as variaveis a e b são identicas? $r";
+        
+    $r = ($a == $b)?"sim":"não";  // == elas são iguais
+
+    echo"<br> as variaveis a e b são iguais? $r";
+
 
        
         
