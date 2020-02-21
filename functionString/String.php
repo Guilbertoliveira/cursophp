@@ -41,6 +41,59 @@
 
 
     echo"o tamanho e: ". strlen($t); //tamanho das strings (conta os espaços)
+
+    //função trim  retira os espaços a mais
+    //função ltrim (retiraria apenas os espacos do inicio)
+    //rtrim (retiraria apenas os espacos do fim)
+    // no exemplo foi utilizado o trim
+    echo"<br>";
+    $nome = "   jose da silva   ";
+    echo"<br> $nome";
+    echo"<br> antes: ". strlen($nome);
+
+    $novo = trim($nome);
+    echo"<br> $novo";
+    echo"<br> depois: ". strlen($novo);
+
+
+    //função str_word_count (mostra quantas palavras possuí)
+    echo"<br><br>Eu vou estudar php <br>";
+    $frase = "eu vou estudar php";
+    $cont = str_word_count($frase, 0); // 0, 1, 2 , 0 = simplesmente conta, 1 = gera vetor, 2 = vetor mantendo posicionamento de cada string
+    echo"$cont";
+
+
+    // função explode (separa as palavras por espaço)
+    echo"<br><br>";
+    $site = "aaaaa aaa aaa";
+    $vetor = explode(" ", $site);
+    print_r($vetor);
+
+    // separa as palavras em cada vetor
+    echo"<br><br>";
+    $string = "maria";
+    $vetor = str_split($string);
+    print_r($vetor);
+
+    //function implode (coloca espacos ou outros caracteres no lugar dos espacos)
+    echo"<br><br>";
+    $vet[0] = "aaa";
+    $vet[1] = "bbb";
+    $vet[2] = "ccc";
+    $texto = implode("#", $vet);
+    print($texto);
+
+    //function chr (para achar a letra pelo numero dela)
+    $letra = chr(67);
+    echo"<br><br>";
+    echo" a letra de codigo 67 e $letra";
+
+    //function ord (para achar o numero atraves da letra)
+    $letra = "c";
+    echo"<br><br>";
+    $cod = ord($letra);
+    echo"$cod";
+
     ?>
 
     
