@@ -25,6 +25,35 @@
             $c = range(5,20,5); //comçea em 5 vai ate 20 pulando de 5 em 5
             print_r($c);
 
+            //chaves personalizadas mudando o numero dos vetores
+            echo"<br>";
+            $v = array( 
+            6=>5, 
+            1=>9, 
+            2=>8, 
+            3=>7);
+            $v[] = 100;
+            print_r($v);
+
+            echo"<br>";
+            unset($v[6]);  //desloca o vetor escolhido
+            print_r($v);
+
+            //chaves associativas
+            echo"<br>";
+            $u = array("nome" => "ana", "idade" =>23, "peso" =>65.4);
+            print_r($u);
+
+            //usando foreach
+            echo"<br>";
+            echo"<br>";
+            foreach($u as $campo => $valor){
+                echo("no campo $campo o valor e $valor <br>");
+            }
+
+            
+
+
 
             
    ?> 
