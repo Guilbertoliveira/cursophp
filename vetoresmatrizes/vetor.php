@@ -65,6 +65,57 @@
             array_pop($u); // maneira de remover do vetor (pilha)
             echo("<br><br>");
             print_r($u);
+            echo("<br><br>");
+
+            array_unshift($u, 7); // adicionando no primeiro elemento do vetor
+            print_r($u);
+            echo("<br><br>");
+
+            array_shift($u); //elimina o primeiro elemento do vetor;
+            print_r($u);
+
+
+            echo("<br><br> ORIGINAL : <BR>");
+
+            $k = array(3,7,5,8,1);
+            print_r($k);
+
+            asort($k); //ordenando o vetor ordem crescente e o indice
+            echo("<br><br>");
+            print_r($k);
+
+            arsort($k); //ordenando o vetor ordem decrescente e o indice
+            echo("<br><br>");
+            print_r($k);
+
+
+
+            sort($k); //ordenando o vetor com uma function ordem crescente
+            echo("<br><br>");
+            print_r($k);
+
+            rsort($k); //ordenando o vetor com uma function ordem decrescente
+            echo("<br><br>");
+            print_r($k);
+
+            echo("<br><br> COLOCANDO CHAVE (INDICES) EM ORDEM : <BR>");
+
+            $h = array( 
+                6=>"g", 
+                1=>"v", 
+                2=>"i", 
+                3=>"a");
+                print_r($h);
+                echo"<br>";
+                ksort($h); // organizando os indices ordem crescente
+                print_r($h);
+                echo"<br>";
+                krsort($h); // organizando os indices ordem decrescente
+                print_r($h);
+
+    
+           
+
 
 
 

@@ -21,6 +21,35 @@
         echo "$v <br>";
     }
     
+
+
+    $a=10;
+$b=2;
+$j=$a/2;
+for ($i=0;$i<$j;$i++){
+    if ($i % $b == 1) 
+	echo "$i";
+}
+
+
+
+$x = 4;
+$y = 2;
+if($x == $y) 
+	comando1;
+    comando2;
+
+    $a = 5;
+    $b = 3;
+    $c = ($a>$b)?true:false;
+    echo"$c";
+
+
+
+    echo"a somaa e : ". 0%3;
+    
+
+
    ?> 
 </div>
     
