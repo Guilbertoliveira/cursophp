@@ -14,6 +14,10 @@
 <div>
     <?php
     
+            //matrizes no php
+            $n = array(array(2,4), array(3,4), array(6,6));
+            print_r($n[1][1]);
+
             
             
    ?> 

@@ -51,7 +51,11 @@
                 echo("no campo $campo o valor e $valor <br>");
             }
 
-            
+            echo("<br><br>");
+            echo("o vetor tem "). count($v). " elementos <br>";
+            print_r($u);
+            echo("<br><br>");
+            var_dump($u); //mostrar o vetor mais complexo 
 
 
 
