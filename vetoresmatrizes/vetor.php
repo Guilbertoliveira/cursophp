@@ -57,6 +57,16 @@
             echo("<br><br>");
             var_dump($u); //mostrar o vetor mais complexo 
 
+            echo("<br><br>"); 
+            $u[] = "joaquina"; //maneira de adicionar no ultimo elementro do vetor
+            array_push($u, "creude"); //outra maneira de adicionar no vetor (pilha)
+            print_r($u);
+            
+            array_pop($u); // maneira de remover do vetor (pilha)
+            echo("<br><br>");
+            print_r($u);
+
+
 
 
             
