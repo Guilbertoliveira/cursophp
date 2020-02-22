@@ -94,6 +94,38 @@
     $cod = ord($letra);
     echo"$cod";
 
+    //strtolower letras minúscula
+
+        $nome = "GUILBERT OLIVEIRA";
+        $nome2 = strtolower($nome);
+        echo "seu nome e $nome2";
+
+    //strtoupper faz o oposto do strtolower
+    $nome = "GUILBERT oliveira";
+        $nome2 = strtoupper($nome);
+        echo "seu nome e $nome2";
+
+    //ucfirst colocar a primeira letra maiúscula
+
+    //ucwords colocar a primeira letra maiúscula de todas palavras
+
+    //strrev palavra ao contrario
+
+    // strpos verifica em qual uma palavra se encontra em uma frase
+
+    //stripos verifica em qual uma palavra se encontra em uma frase maiusculo e minusculo
+
+    //substr_count encontra quantas vezes a palavra foi encontrada na frase
+
+    //substr você escolhe uma parte da frase para pegar
+
+    //str_pad completa a quantidade de caracters com espaço 
+
+    //str_repeat repete caracteres ou palavras necessarias
+
+    //str_replace troca palavras por outras palavras de sua escolha
+
+
     ?>
 
     
